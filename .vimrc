@@ -24,7 +24,7 @@ let NERDTreeIgnore = ['\.pyc$','\.o', '\.swp', '\.swo', '\.vscode', '__pycache__
 "cntr + w + w window change
 let NERDTreeQuitOnOpen=1   " Close NERDtree when files was opened
 let NERDTreeMinimalUI=1    " Start NERDTree in minimal UI mode (No help lines)
-
+autocmd VimEnter * wincmd p
 
 
 
