@@ -9,6 +9,10 @@ call plug#begin('~/.vim/plugged')
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'preservim/nerdtree'
+"Plug 'skywind3000/asyncrun.vim'  " For async make 
+"Plug 'Shougo/neosnippet'         " For snippet support   
+"Plug 'godlygeek/tabular',        " For aligning    
+"Plug 'mattia72/vim-delphi' 
 
 call plug#end()
 let g:airline_theme='murmur'
@@ -25,6 +29,11 @@ let NERDTreeIgnore = ['\.pyc$','\.o', '\.swp', '\.swo', '\.vscode', '__pycache__
 let NERDTreeQuitOnOpen=1   " Close NERDtree when files was opened
 let NERDTreeMinimalUI=1    " Start NERDTree in minimal UI mode (No help lines)
 autocmd VimEnter * wincmd p
+"let g:neosnippet#disable_runtime_snippets
+
+
+
+
 
 
 
